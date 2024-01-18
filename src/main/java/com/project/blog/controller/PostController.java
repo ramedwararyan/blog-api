@@ -29,10 +29,12 @@ import com.project.blog.payloads.PostResponse;
 import com.project.blog.services.FileService;
 import com.project.blog.services.PostService;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.servlet.http.HttpServletResponse;
 
 @RestController
 @RequestMapping("/api/")
+//@Tag(name = "Blog", description = "Blog APIs")
 public class PostController {
 
 	@Autowired
@@ -113,7 +115,8 @@ PostResponse postResponse = this.postService.getAllPost(pageNumber,pageSize,sort
 		// post image upload
 
 		@PostMapping("/post/image/upload/{postId}")
-		public ResponseEntity<PostDto> uploadPostImage(@RequestParam("image") MultipartFile image,
+		public ResponseEntity<PostDto> uploadPostImage(
+				@RequestParam("image") MultipartFile image,
 				@PathVariable Integer postId) throws IOException {
 
 			PostDto postDto = this.postService.getPostById(postId);
@@ -121,6 +124,7 @@ PostResponse postResponse = this.postService.getAllPost(pageNumber,pageSize,sort
 			String fileName = this.fileService.uploadImage(path, image);
 			postDto.setImageName(fileName);
 			PostDto updatePost = this.postService.updatePost(postDto, postId);
+			
 			return new ResponseEntity<PostDto>(updatePost, HttpStatus.OK);
 
 		}

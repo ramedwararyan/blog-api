@@ -9,16 +9,27 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.util.Date;
 import java.util.UUID;
 
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.project.blog.entities.Post;
+import com.project.blog.repo.PostRepo;
 import com.project.blog.services.FileService;
 
 @Service
 public class FileServiceImpl implements FileService {
 
+	@Autowired
+	private PostRepo postRepo;
+	
+	@Autowired
+	private ModelMapper modelMapper;
+	
 	@Override
 	public String uploadImage(String path, MultipartFile file) throws IOException {
 
@@ -42,6 +53,8 @@ public class FileServiceImpl implements FileService {
 		// file copy
 
 		Files.copy(file.getInputStream(), Paths.get(filePath));
+		
+		
 
 		return fileName1;
 	}

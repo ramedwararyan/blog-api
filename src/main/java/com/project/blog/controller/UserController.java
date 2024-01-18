@@ -18,11 +18,13 @@ import com.project.blog.payloads.ApiResponse;
 import com.project.blog.payloads.UserDto;
 import com.project.blog.services.UserService;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 
 
 @RestController
 @RequestMapping("/api/users")
+//@Tag(name = "Blog", description = "Blog APIs")
 public class UserController {
 
 	@Autowired

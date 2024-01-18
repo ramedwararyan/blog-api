@@ -11,8 +11,10 @@ C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\ja
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\exceptions\ApiException.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\repo\PostRepo.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\payloads\CategoryDto.java
+C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\payloads\RoleDto.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\controller\AuthController.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\config\AppConstants.java
+C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\config\ContentConfig.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\BlogApiApplication.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\exceptions\ResourceNotFoundException.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\payloads\UserDto.java
@@ -36,7 +38,10 @@ C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\ja
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\entities\User.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\payloads\JwtAuthResponse.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\services\implement\PostServiceImpl.java
+C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\repo\RoleRepo.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\security\JwtAuthResponse.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\services\implement\CategoryServiceImpl.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\services\UserService.java
+C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\config\SwagggerConfig.java
+C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\entities\Role.java
 C:\Users\ARYAN\workspace-spring-tool-suite-4-4.19.1.RELEASE\blog-api\src\main\java\com\project\blog\services\CategoryService.java

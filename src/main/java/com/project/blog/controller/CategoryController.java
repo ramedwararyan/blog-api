@@ -18,11 +18,13 @@ import com.project.blog.payloads.ApiResponse;
 import com.project.blog.payloads.CategoryDto;
 import com.project.blog.services.CategoryService;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 
 
 @RestController
 @RequestMapping("/api/categories")
+//@Tag(name = "Blog_Category", description = "Blog_Category APIs")
 public class CategoryController {
 	
 	@Autowired

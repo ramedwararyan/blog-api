@@ -1,3 +1,4 @@
+com\project\blog\config\ContentConfig.class
 com\project\blog\security\JwtAuthenticationEntryPoint.class
 com\project\blog\payloads\CategoryDto.class
 com\project\blog\repo\UserRepo.class
@@ -23,6 +24,7 @@ com\project\blog\BlogApiApplication.class
 com\project\blog\exceptions\GlobalExceptions.class
 com\project\blog\security\CustomUserDetailService.class
 com\project\blog\controller\AuthController.class
+com\project\blog\payloads\RoleDto.class
 com\project\blog\services\implement\UserServiceImpl.class
 com\project\blog\controller\UserController.class
 com\project\blog\entities\Comment.class
@@ -31,12 +33,15 @@ com\project\blog\payloads\UserDto.class
 com\project\blog\entities\User.class
 com\project\blog\repo\CommentRepo.class
 com\project\blog\services\FileService.class
+com\project\blog\repo\RoleRepo.class
 com\project\blog\exceptions\ResourceNotFoundException.class
+com\project\blog\config\SwagggerConfig.class
 com\project\blog\payloads\CommentDto.class
 com\project\blog\security\JwtAuthenticationFilter.class
 com\project\blog\entities\Category.class
 com\project\blog\exceptions\ApiException.class
 com\project\blog\entities\Post.class
 com\project\blog\security\JwtAuthResponse.class
+com\project\blog\entities\Role.class
 com\project\blog\services\implement\FileServiceImpl.class
 com\project\blog\payloads\PostResponse.class
