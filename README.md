@@ -54,7 +54,24 @@ This project is a complete blogging solution that supports authenticated users, 
 ## 📂 Project Structure
 blog-api/
 ├── /blog-api (Spring Boot APIs)
+/blog-api/src/main/java/
+ -- com.project.blog.config;
+ -- com.project.blog.controller;
+ -- com.project.blog.entities;
+ -- com.project.blog.exceptions;
+ -- com.project.blog.payload;
+ -- com.project.blog.repo;
+ -- com.project.blog.security;
+ -- com.project.blog.services;
+ -- com.project.blog.services.implementation;
+ 
 ├── /blog (ReactJS Application)
+/blog/src
+  -- /auth 
+  -- /components
+  -- /context
+  -- /pages
+  -- /services
 └── README.md
 
 
